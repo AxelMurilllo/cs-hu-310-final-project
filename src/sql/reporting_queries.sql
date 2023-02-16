@@ -1,12 +1,6 @@
 /* Put your final project reporting queries here */
 USE cs_hu_310_final_project;
 
--- Example (remove before submitting)
--- Get all students
-SELECT
-    *
-FROM students;
-
 -- 1. Calculate the GPA for student given a student_id (use student_id=1)
 SELECT students.first_name, students.last_name, 
 COUNT(class_registrations.class_registration_id) AS number_of_classes,
